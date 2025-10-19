@@ -1,57 +1,81 @@
-# Job Portal
-Django Job Portal.   
+# Django Job Portal
 
-## Installation 
+A job-posting and application management system built with Django.  
+Employers can create and manage job listings, while candidates can register, browse jobs, and apply directly through the platform.
 
+---
+
+## Overview
+This project demonstrates end-to-end backend functionality for a real-world job portal.  
+It includes authentication, role-based dashboards, CRUD operations, and responsive templates.
+
+---
+
+## Technology Stack
+- **Backend:** Django, Python  
+- **Frontend:** HTML, CSS, Bootstrap  
+- **Database:** SQLite (for development)  
+- **Authentication:** Django Auth System  
+- **Tools:** Git, Virtualenv, Pillow, Django Crispy Forms  
+
+---
+
+## Key Features
+- User registration and login for Employers & Candidates  
+- Job posting, editing, and deletion by Employers  
+- Job browsing and application by Candidates  
+- Dashboard views for both user roles  
+- Responsive and lightweight UI  
+- Admin panel for full project control  
+
+---
+
+## Setup and Installation
+### 1. Clone the repository
+```bash
+git clone git@github.com:muhammadtayabfarooq-dev/django-job-portal.git
+cd django-job-portal
+````
+
+### 2. Create and activate a virtual environment
+
+```bash
+python -m venv venv
+venv\Scripts\activate      # Windows
+source venv/bin/activate   # macOS / Linux
 ```
-open terminal and type
-https://github.com/Sany07/Job-Portal.git
 
-or simply download using the url below
-https://github.com/Sany07/Job-Portal.git
-```
+### 3. Install dependencies
 
-## Install requirements
-
-```
+```bash
 pip install -r requirements.txt
 ```
-## Database
 
-```
-Set the database from settings.py
-```
+### 4. Apply migrations
 
-## To migrate the database open terminal in project directory and type
-```
-python manage.py makemigrations
+```bash
 python manage.py migrate
 ```
 
-## Collects all static files in your apps
+### 5. Run the server
 
-```
-python manage.py collectstatic
-```
-
-## Run the server
-```
+```bash
 python manage.py runserver
 ```
 
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-2020-05-08-17_03_46.png)
+Open your browser at **[http://127.0.0.1:8000/](http://127.0.0.1:8000/)**
 
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-jobs-2020-05-08-17_40_01.png)
+---
 
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-job-79-2020-05-08-16_59_55.png)
+## Developer Information
 
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-job-create-2020-05-08-17_00_46.png)
+**Muhammad Tayab Farooq**
+Python & Django Developer
+Email: [muhammadtayabfarooq@gmail.com](mailto:muhammadtayabfarooq@gmail.com)
+GitHub: [github.com/muhammadtayabfarooq-dev](https://github.com/muhammadtayabfarooq-dev)
 
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-dashboard-2020-05-08-17_01_07.png)
+---
 
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-dashboard-employer-job-54-applicants-2020-05-08-17_01_34.png)
+This project is open-source and available for learning and portfolio demonstration.
 
-<div align="center">
-    <h3>========Thank You=========</h3>
-</div>
-
+```
